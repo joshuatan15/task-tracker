@@ -15,8 +15,8 @@
     {
       "text": "hello",
       "day": "April 1st",
-      "reminder": false,
-      "id": "7gLTeU-"
+      "reminder": true,
+      "id": "UO9X5eq"
     }
   ]
 }

@@ -52,8 +52,8 @@ export default {
       const updateTask = { ...taskToToggle, reminder: !taskToToggle.reminder };
       const res = await fetch(`api/tasks/${id}`, {
         method: "PUT",
-        header: {
-          "Content-Type": "application/json",
+        headers: {
+          "Content-type": "application/json",
         },
         body: JSON.stringify(updateTask),
       });
